@@ -1,0 +1,22 @@
+{
+  "name": "perfectpractice",
+  "description": "Practice project to keep the wheels up there well oiled.",
+  "main": "index.html",
+  "authors": [
+    "Melissa Loggins"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/MelissaLoggins/bourbon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "^4.3.4",
+    "susy": "^3.0.1",
+    "normalize-css": "^7.0.0"
+  }
+}

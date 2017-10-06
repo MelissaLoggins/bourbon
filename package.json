@@ -1,0 +1,29 @@
+{
+  "name": "perfectpractice",
+  "version": "0.0.1",
+  "description": "Practice project to keep the wheels up there well oiled.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelissaLoggins/bourbon.git"
+  },
+  "author": "Melissa Loggins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelissaLoggins/bourbon/issues"
+  },
+  "homepage": "https://github.com/MelissaLoggins/bourbon#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
