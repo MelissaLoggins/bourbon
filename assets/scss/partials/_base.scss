@@ -1,0 +1,21 @@
+nav {
+
+	ul {
+	list-style: none;
+
+	}
+
+	li {
+	display: inline-block;
+
+ 	}
+
+ 	a {
+		padding: 0 150px;
+
+		&:hover {
+			color: $sandstorm;
+		}
+	}
+
+}
