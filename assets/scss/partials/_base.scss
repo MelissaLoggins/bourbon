@@ -1,3 +1,54 @@
+body {
+	color: $old-silver;
+	font-family: $text;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: $moonstone-blue;
+	font-family: $headings;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+//Forms
+#{$all-text-inputs} {
+  border: 1px solid $sandstorm;
+  padding: 10px;
+}
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover} ,
+#{$all-text-inputs-active} {
+  border: 1px solid $turquoise;
+}
+
+#{$all-buttons} {
+  background-color: $turquoise;
+  border: 1px solid $sandstorm;
+  color: $sandstorm;
+  padding: 10px;
+}
+
+#{$all-buttons-focus},
+#{$all-buttons-hover}, 
+#{$all-buttons-active} {
+  background-color: $sandstorm;
+  border: 1px solid $turquoise;
+  color: $turquoise;
+}
+
 nav {
 
 	ul {

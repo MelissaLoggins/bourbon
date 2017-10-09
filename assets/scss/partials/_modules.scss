@@ -1,0 +1,9 @@
+.feature img {
+	border-radius: $default-border-radius;
+	@include size(250px auto);
+}
+
+.customer img {
+	border-radius: $default-border-radius;
+	@include size (150px);
+}
